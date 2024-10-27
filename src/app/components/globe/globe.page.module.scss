@@ -1,0 +1,66 @@
+.block_location_650 {
+     display: none;
+ }
+ .ukraine_650 {
+   margin-left: 40px;
+   line-height: 1.5;
+   font-weight: 900;
+   width: 50px;
+   position: absolute;
+   top: 170px;
+   color: #fff;
+   font-size: 14px;
+   z-index: 2;
+ }
+ 
+ .rectangle_location_650 {
+   position: absolute;
+   top: 150px;
+   left: 0;
+   width: 230px;
+   height: 100px;
+   background-color: #1c1d20;
+   border-radius: 0 50px 50px 0;
+   z-index: 1;
+ }
+ .transparent_circle_650 {
+   position: absolute;
+   top: 200px;
+   left: 180px;
+   transform: translate(-50%, -50%);
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background-color: #999d9e;
+
+    z-index: 2;
+ }
+ .globe_650 {
+   position: absolute;
+   top: 175px;
+   left: 155px;
+   width: 40%;
+   height: 40%;
+    z-index: 3;
+ 
+   img {
+     width: 3.6em;
+     height: 3.6em;
+   }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ @media (min-width: 650px) and (max-width: 100vw) {
+ 
+   .block_location_650 {
+     display: flex;
+     position: absolute;
+     top: 20%;
+     left: 0;
+     z-index: 2;
+   }
+ }

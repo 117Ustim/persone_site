@@ -1,0 +1,313 @@
+.header {
+   background-color: #999d9e;
+ 
+  width: 100%;
+  height: 100dvh;
+
+  position: relative;
+}
+.navig {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 0.5vh;
+}
+
+.header_photo {
+  margin-top: 8%;
+
+  width: 100%;
+  height: 100dvh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: 73dvh;
+    object-fit: cover;
+    object-position: center;
+    align-items: flex-end;
+  }
+}
+.title_block {
+  width: 100%;
+
+  position: absolute;
+  top: 83%;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: 11vw;
+  margin: 0 15px 0 15px;
+
+  color: #fff;
+
+  font-weight: 400;
+}
+
+.block_text {
+  display: flex;
+  margin-top: 40px;
+  position: absolute;
+  top: 120px;
+ 
+  
+}
+.text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 10%;
+  color: #fff;
+
+  font-size: 24px;
+
+  
+}
+
+
+
+
+.text2 {
+
+  margin: 3% 0 0 37%;
+}
+.block_globe_360 {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  right: 0;
+}
+.rectangle_location_360 {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 110px;
+  height: 50px;
+  background-color: #1c1d20;
+  border-radius: 50px 0px 0px 50px;
+}
+.transparent_circle_360 {
+  position: absolute;
+  top: 25px;
+  right: 44px;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #999d9e;
+
+  z-index: 1;
+}
+.globe {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-end;
+ 
+  margin: 6.8% 66px 0 0px;
+  z-index: 2;
+  img {
+    width: 2.6em;
+    height: 2.6em;
+    
+  }
+}
+.ua_360 {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  color: #fff;
+  font-size: 16px;
+  z-index: 2;
+}
+
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .title_block {
+    // top: 70%;
+  }
+  .text {
+    margin-top: 5%;
+    font-size: 6vw;
+  }
+  .title {
+    font-size: 10vw;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+  .header_photo {
+    margin-top: 15%;
+
+    img {
+      height: 75vh;
+    }
+  }
+  .title_block {
+    // top: 70%;
+  }
+  .text {
+    margin-top: 25%;
+    font-size: 6vw;
+  }
+  .title {
+    font-size: 11vw;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 100vw) {
+  .header_photo {
+    margin-top: 15%;
+
+    img {
+      height: 90vh;
+    }
+  }
+  .block_globe_360 {
+    display: none;
+  }
+}
+@media (min-width: 650px) and (max-width: 1000px) {
+  .title_block {
+    top: 85%;
+  }
+  .block_text {
+    display: flex;
+   
+    margin-top: 40px;
+    position: absolute;
+    top: 150px;
+    right: 10%;
+   
+    
+  }
+  .text {
+   
+    font-size: 5vw;
+  }
+  .title {
+    
+    font-size: 11vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .header_photo {
+    margin-top: 15%;
+
+    img {
+      height: 100vh;
+    }
+  }
+  .text {
+    font-size: 4.5vw;
+  }
+  .title {
+    font-size: 9vw;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .header_photo {
+    margin-top: 5%;
+
+    img {
+      width: 90vh;
+      height: 90vh;
+    }
+  }
+  .block_text {
+    top: 25%;
+    right: 10%;
+  }
+  .title_block {
+    top: 85%;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    font-size: 7vw;
+  }
+  .text {
+    font-size: 3.5vw;
+    // clamp(1.25em, 4vw, 2.5em)
+  }
+  .text2 {
+    margin: 5% 0 0 7%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .header_photo {
+    margin-top: 4%;
+    //  margin-left: 5%;
+    padding-left: 5%;
+
+    img {
+      width: 90vh;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .block_text {
+    top: 400px;
+    right: 10%;
+  }
+  .title_block {
+    top: 85%;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    font-size: 7vw;
+  }
+  .text {
+    font-size: 2.5vw;
+    // clamp(1.25em, 4vw, 2.5em)
+  }
+  .text2 {
+    margin: 5% 0 0 7%;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 100vw) {
+  .header_photo {
+    margin-top: 4%;
+    //  margin-left: 5%;
+    padding-left: 5%;
+
+    img {
+      width: 90vh;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .title_block {
+    top: 82%;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    font-size: 7vw;
+  }
+  .block_text {
+    top: 400px;
+    right: 10%;
+  }
+  .text {
+    font-size: 2.5vw;
+    // clamp(1.25em, 4vw, 2.5em)
+  }
+  .text2 {
+    margin: 5% 0 0 7%;
+  }
+}
