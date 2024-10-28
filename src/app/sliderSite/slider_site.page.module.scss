@@ -44,9 +44,9 @@ $anim: cubic-bezier(0.02, 0.63, 0.23, 0.99);
   .mainImage{
     position: absolute;
     width: 130vw;
-    height: 130vw;
+    height: 250vw;
     object-fit: cover;
-    object-position: center;
+     object-position: center;
     //  left: 0;
     //  top: calc(50% - 65vw);
     left: 50%;
@@ -71,7 +71,7 @@ $anim: cubic-bezier(0.02, 0.63, 0.23, 0.99);
     img{
       position: absolute;
       width: 130vw;
-      height: 130vw;
+      height: 250vw;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
@@ -96,7 +96,7 @@ $anim: cubic-bezier(0.02, 0.63, 0.23, 0.99);
     img{
       position: absolute;
       width: 130vw;
-      height: 130vw;
+      height: 250vw;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
@@ -208,43 +208,43 @@ $anim: cubic-bezier(0.02, 0.63, 0.23, 0.99);
 
 
 
-@media(max-width: 575px){
-  .slide{
-    .mainImage{
-      width: 130vh;
-      height:130vh;
-    }
-    .roundOuter{
-      width: 86vh;
-      height: 86vh;
-      left: calc(50% - 43vh);
-      top: calc(50% - 43vh);
-      img{
-        width:130vh;
-        height: 130vh;
-      }
-    }
-    .roundInner{
-      width: 50vh;
-      height: 50vh;
-      left: calc(50% - 25vh);
-      top: calc(50% - 25vh);
-      img{
-        width: 130vh;
-        height: 130vh;
-      }
-    }
-    .slideText{
-      h1{
-        font-size: 9vw;
-        letter-spacing: 3vw;
-        padding-left: 3vw;
-      }
-      p{
-        font-size: 5vw;
-        letter-spacing: 2vw;
-        padding-left: 2vw;
-      }
-    }
-  }
-}
+// @media(max-width: 575px){
+//   .slide{
+//     .mainImage{
+//       width: 130vh;
+//       height:130vh;
+//     }
+//     .roundOuter{
+//       width: 86vh;
+//       height: 86vh;
+//       left: calc(50% - 43vh);
+//       top: calc(50% - 43vh);
+//       img{
+//         width:130vh;
+//         height: 130vh;
+//       }
+//     }
+//     .roundInner{
+//       width: 50vh;
+//       height: 50vh;
+//       left: calc(50% - 25vh);
+//       top: calc(50% - 25vh);
+//       img{
+//         width: 130vh;
+//         height: 130vh;
+//       }
+//     }
+//     .slideText{
+//       h1{
+//         font-size: 9vw;
+//         letter-spacing: 3vw;
+//         padding-left: 3vw;
+//       }
+//       p{
+//         font-size: 5vw;
+//         letter-spacing: 2vw;
+//         padding-left: 2vw;
+//       }
+//     }
+//   }
+// }
