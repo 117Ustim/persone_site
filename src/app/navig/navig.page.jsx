@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Burger from './burger/Burger';
 import styles from'./navig.page.module.scss'
 import logo from "../img/logo.png";
+import Link from 'next/link';
 
 export default function Navig () {
 return (
@@ -34,7 +35,9 @@ return (
     <div className={styles.point}></div>
     <ul>
       
-        <li>Портфолiо</li>
+        <li>
+        <Link href="/portfolio">Портфолiо</Link>
+        </li>
         <li>Послуги</li>
         <li>Контакти</li>
     </ul>

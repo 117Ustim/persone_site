@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react';
 import Image from 'next/image'; // Next.js оптимизация изображений
-import './slider_2.page.scss'
+import './slider_portfolio.page.scss'
 
 import React, { useRef } from 'react';
 

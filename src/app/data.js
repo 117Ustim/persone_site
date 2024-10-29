@@ -7,6 +7,7 @@ import slider_3 from "./img/web/web_3.jpg";
 import slider_4 from "./img/web/web_4.jpg";
 
 import sliderSite_1 from './img/site/site_1.2.png'
+import sliderSite_2 from './img/site/foto_gym.gif'
 
 
 
@@ -22,7 +23,8 @@ import sliderSite_1 from './img/site/site_1.2.png'
       description: 'Scotland',
     },
     {
-      img: 'https://images.unsplash.com/photo-1542401886-65d6c61db217?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100',
+      // img: 'https://images.unsplash.com/photo-1542401886-65d6c61db217?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100',
+      img:sliderSite_2,
       alt: 'slide-2',
       title: 'Sahara',
       description: 'Marrakech',
