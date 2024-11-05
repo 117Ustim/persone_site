@@ -9,6 +9,7 @@
       //  max-width: 1440px;
    
   }
+ 
   .logo {
    
     position: relative;
@@ -37,6 +38,7 @@ height: 5vh;
   }
   .menu_550 {
     display: none;
+  
   }
   .point {
     display: flex;
@@ -46,6 +48,7 @@ height: 5vh;
     background-color: #fff;
     border-radius: 50%;
     animation: blink 2s infinite;
+    
   }
   @keyframes blink {
     0% {
@@ -74,13 +77,20 @@ height: 5vh;
     .menu_550 {
       display: flex;
       margin-right: 5%;
-  
+     
+
       ul {
         display: flex;
         gap: 40px;
+        
       }
       li {
         font-size: 2.5vw;
+       
+      }
+      a {
+        text-decoration: none;
+        color: #fff; 
       }
     }
   }

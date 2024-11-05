@@ -42,3 +42,37 @@ import sliderSite_2 from './img/site/foto_gym.gif'
       description: 'Indian Ocean',
     },
   ];
+
+  export const slidesPortfolio = [
+    {
+          title: "Lossless Youths",
+          description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+          img:sliderSite_1,
+        },
+        {
+          title: "Estrange Bond",
+          description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+          img:sliderSite_2,
+        },
+        {
+          title: "The Gate Keeper",
+          description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+          img: 'https://images.unsplash.com/photo-1581081245691-a216823de64b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80'
+        },
+        {
+          title: "Last Trace Of Us",
+          description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+          img: 'https://images.unsplash.com/photo-1549748206-57378bd2316c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1975&q=80'
+        },
+        // {
+        //   title: "Urban Decay",
+        //   description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+        //   img: "https://theawesomer.com/photos/2017/07/simon_stalenhag_the_electric_state_6.jpg"
+        // },
+       
+        // {
+        //   title: "Urban Decay",
+        //   description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+        //   img: "https://theawesomer.com/photos/2017/07/simon_stalenhag_the_electric_state_6.jpg"
+        // },
+  ];

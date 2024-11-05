@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
-import styles from "./slider_site.page.module.scss";
+import styles from "./section_slider_site.page.module.scss";
 import { slides } from "../data";
 import Image from "next/image";
 

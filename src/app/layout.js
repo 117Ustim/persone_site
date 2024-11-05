@@ -1,16 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.scss";
-import { motion } from "framer-motion";
-import Footer from "./footer/footer.page";
-
-
-import SectionHomeInfo from "./sectionHomeInfo/SectionHomeInfo.page";
-
-import Loader from "./components/loading/Loading.page";
-
-import AnimText from "./components/loading/anim_text/AnimText.page";
-import SliderSite from "./sliderSite/SliderSite.page";
-
+// import { motion } from "framer-motion";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,32 +21,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {/* <AnimText> */}
-        {/* <Loader> */}
-          <div>
-            <div className="section">
-           
-              {children}
-            </div>
-
-            <div className="section">
-              <SectionHomeInfo />
-            </div>
-            <div className="section">
-            <SliderSite/>
-            
-            </div>
-
-           
-            <div className="section">
-              <Footer />
-            </div>
-          </div>
-        {/* </Loader> */}
-        {/* </AnimText> */}
-       
+        {/* <AnimText> 
+         <Loader> */}
+       {children}
+        {/* </Loader> 
+         </AnimText>  */}
       </body>
     </html>
   );

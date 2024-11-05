@@ -25,21 +25,21 @@ return (
        <Burger/>
     
     </nav>
-    {/*
-    <ul>
-      
-        <li> </li>
-    </ul> */}
+  
     
     <nav className={styles.menu_550}>
-    <div className={styles.point}></div>
+    {/* <div className={styles.point}></div> */}
     <ul>
       
         <li>
         <Link href="/portfolio">Портфолiо</Link>
         </li>
-        <li>Послуги</li>
-        <li>Контакти</li>
+        <li>
+        <Link href="/services">Послуги</Link>
+        </li>
+        <li>
+        <Link href="/contact">Контакти</Link>
+        </li>
     </ul>
     </nav>
     </div>

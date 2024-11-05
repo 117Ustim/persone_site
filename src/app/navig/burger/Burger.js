@@ -1,5 +1,5 @@
- import "./burger.scss";
-// import { header_menu } from "../../../../data";
+import "./burger.scss";
+import Link from "next/link";
 
 export default function Burger() {
   return (
@@ -9,41 +9,20 @@ export default function Burger() {
         <span>Menu</span>
       </label>
 
-      {/* <ul className="menubox"> */}
-        
-<div className="menubox"> 
- <div className="block_item">
-<li className="menu-item">Портфолio </li>
-<li className="menu-item">Послуги</li>
-<li className="menu-item">Контакти</li> 
-
- </div>
-   
-    </div>      
-
-    
-
-        {/* <li>
-          <span className="menu-item">Каталог</span>
-        </li>
-        {header_menu.map((item, index) => (
-          <li key={index}>
-            <a className="menu-item" href={item.link}>
-              {item.title}
-            </a>
-          </li> */}
-        {/* ))} */}
-      {/* </ul> */}
+      <div className="menubox">
+        <div className="block_item">
+       
+          <li>
+          <Link href="/portfolio"className="menu-item">Портфолiо</Link>  
+            </li> 
+            <li>
+          <Link href="/services"className="menu-item">Послуги</Link>  
+            </li>
+            <li>
+          <Link href="/contact"className="menu-item">Контакти</Link>  
+            </li>
+        </div>
+      </div>
     </div>
   );
 }
-
-
-
-{/* <ul className="menubox">       
-<li className="menu-item">О продукте </li>
-<li className="menu-item">Каталог</li>
-<li className="menu-item">Акции</li>
-<li className="menu-item">Полезное</li>
-<li className="menu-item">Авторы</li>       
-</ul> */}
