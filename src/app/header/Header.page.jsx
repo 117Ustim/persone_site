@@ -4,7 +4,7 @@ import styles from "./header.page.module.scss";
 import Home_image4 from "../img/IMG_8597.png";
 import globe from "../img/804.gif";
 import { motion } from "framer-motion";
-import Navig from "../navig/navig.page";
+import Navig from "../navig/Navig.page";
 import Globe from "../components/globe/Globe.page";
 
 export default function Main() {

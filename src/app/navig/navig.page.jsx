@@ -4,14 +4,14 @@ import styles from'./navig.page.module.scss'
 import logo from "../img/logo.png";
 import Link from 'next/link';
 
-export default function Navig () {
+export default function Navig ({ textColor = '#ffffff' }) {
 return (
-    <div className={styles.navig}>
+    <div className={styles.navig} >
     {/* <div className={styles.code}>
     <p>© Code by Ustim</p>
     </div> */}
      <div className={styles.logo}>
-        <p className={styles.logo_name}>Antonenko Ustim</p>
+        <p className={styles.logo_name} style={{ color: textColor }}>Antonenko Ustim</p>
               <Image
                 src={logo}
                 alt="footer_photo"
@@ -27,18 +27,18 @@ return (
     </nav>
   
     
-    <nav className={styles.menu_550}>
+    <nav className={styles.menu_550} >
     {/* <div className={styles.point}></div> */}
-    <ul>
+    <ul >
       
-        <li>
-        <Link href="/portfolio">Портфолiо</Link>
+        <li >
+        <Link href="/portfolio" style={{ color: textColor }}>Портфолiо</Link>
         </li>
         <li>
-        <Link href="/services">Послуги</Link>
+        <Link href="/services" style={{ color: textColor }}>Послуги</Link>
         </li>
         <li>
-        <Link href="/contact">Контакти</Link>
+        <Link href="/contact" style={{ color: textColor }}>Контакти</Link>
         </li>
     </ul>
     </nav>
