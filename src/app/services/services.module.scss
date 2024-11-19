@@ -11,7 +11,7 @@ margin: 0 10% 0 10%;
 .title {
     // min-width: 300px;
     // max-width: 500px;
-    color: #fff;
+    color: #000;
     line-height: 1.065;
    
     margin-top: 20%;
@@ -47,11 +47,11 @@ display: flex;
   overflow: hidden;
     margin-top: 30%;
     width: 100%;
-    color: #fff;
+    color: #000;
     font-size: calc(clamp(1.25em, 2vw, 3em));
-    .text {
+    // .text {
 
-    }
+    // }
     img {
         margin-top: 20%;
 border-radius: 5px;

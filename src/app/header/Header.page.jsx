@@ -6,6 +6,9 @@ import globe from "../img/804.gif";
 import { motion } from "framer-motion";
 import Navig from "../navig/Navig.page";
 import Globe from "../components/globe/Globe.page";
+import logo from "../img/logo.png";
+
+
 
 export default function Main() {
   return (
@@ -13,7 +16,11 @@ export default function Main() {
       <div className={styles.header}>
         <Globe />
         <div className={styles.navig}>
-          <Navig />
+          <Navig
+            textColor="#ffffff"
+            style={{ textDecoration: "none" }}
+            logo={logo}
+          />
         </div>
 
         <div className={styles.header_photo}>
