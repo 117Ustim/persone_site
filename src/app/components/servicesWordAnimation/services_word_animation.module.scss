@@ -1,0 +1,50 @@
+$size: 110px; // Размер круга
+$duration: 20s; // Длительность полного оборота
+$num-letters: 23; // Количество букв (включая пробелы)
+.logo {
+    position: relative;
+    top: 70px;
+    left: -30px;
+    p {
+        position: absolute;
+        top: 15px;
+        left: 9px;
+        font-size: 7px;
+        color: #0000007c;
+         letter-spacing: 0.02em;
+    }
+}
+.container {
+  
+  position: relative;
+ 
+  width: $size;
+  height: $size;
+//   margin-top: 50px;
+  border-radius: 50%;
+}
+
+.letter {
+  position: absolute;
+  color: #000000c5;
+   text-transform: uppercase;
+  font-size: 12px;
+  transform-origin: 50% calc(#{$size} / 2);
+  animation: spin $duration linear infinite;
+  
+  @for $i from 1 through $num-letters {
+    &:nth-child(#{$i}) {
+      transform: rotate(calc(360deg / $num-letters * #{$i - 1}));
+      animation-delay: calc(-#{$duration} / $num-letters * #{$i - 1});
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg) translateY(0px);
+  }
+  to {
+    transform: rotate(360deg) translateY(0px);
+  }
+}

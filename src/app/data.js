@@ -9,6 +9,7 @@ import slider_4 from "./img/web/web_4.jpg";
 import sliderSite_1 from './img/site/site_1.2.png'
 import sliderSite_2 from './img/site/foto_gym.gif'
 
+import  sectionServices_3_photo from './img/8570.png'
 
 
 
@@ -75,4 +76,17 @@ import sliderSite_2 from './img/site/foto_gym.gif'
         //   description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
         //   img: "https://theawesomer.com/photos/2017/07/simon_stalenhag_the_electric_state_6.jpg"
         // },
+  ];
+
+  export const sectionServices_3 = [
+    {
+      // src: 'https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      img:sectionServices_3_photo,
+      alt: 'photo',
+      title: 'Awwwards судья',
+      text: ' Я помогаю компаниям со всего мира, предлагая индивидуальные решения. С каждым проектом я поднимаю свою работу на новые горизонты, всегда ставя качество на первое место.',
+               
+                
+    }
+   
   ];

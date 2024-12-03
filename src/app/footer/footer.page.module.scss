@@ -44,7 +44,7 @@ margin: 0 auto;
 .title,
 .title_2 {
   color: #fff;
-  font-size: 9vw;
+  font-size: calc(clamp(3.25em, 7vw, 8em)* .875);
 }
 
 .block_line {
@@ -142,4 +142,11 @@ img {
   font-size: 6px;
   color: #ffffff94;
  
+}
+
+
+ @media (min-width: 740px) and (max-width: 1200px) {
+  .block_socials {
+    display: flex;
+  }
 }

@@ -5,6 +5,8 @@ import globe from "../img/804.gif";
 import services_photo from "../img/photo_services.png";
 import logo from "../img/logo_000.png";
 import SectionServices_2 from "./section_services_2/SectionServices_2.page";
+import SectionServices_3 from "./section_services_3/SectionServices_3";
+import Footer from "../footer/footer.page";
 
 
 
@@ -60,10 +62,10 @@ export default function Services() {
           </div>
         </div>
       </div>
-      {/* <div className={styles.background_comp_1}>   
-
-    </div> */}
-    <SectionServices_2/>
+     
+   <SectionServices_2/>
+    <SectionServices_3/>
+     <Footer/> 
     </div>
   );
 }
