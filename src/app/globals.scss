@@ -1,6 +1,7 @@
 :root {
 	 --background-color: #999d9e,
 	 --background-color-services:#fff;
+	 --font-title: "Comfortaa-VariableFont_wght", sans-serif;
   }
 
 
@@ -24,7 +25,7 @@ html,body{
 	overflow-y:auto;
 
 
-  font-family: 'Comfortaa', sans-serif;
+  font-family: var(--font-title), sans-serif;
 	 height: 100%;
 	 width: 100%;
 	

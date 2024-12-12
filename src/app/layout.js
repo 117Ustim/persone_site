@@ -1,10 +1,11 @@
 import localFont from "next/font/local";
 import "./globals.scss";
 // import { motion } from "framer-motion";
+import AnimText from "./components/loading/anim_text/AnimText.page.jsx";
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+  src: "./fonts/Comfortaa-VariableFont_wght.ttf",
+  variable: "--font-title",
   weight: "100 900",
 });
 const geistMono = localFont({
@@ -22,11 +23,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {/* <AnimText> 
-         <Loader> */}
+        {/* <AnimText>  */}
+         {/* <Loader>  */}
        {children}
-        {/* </Loader> 
-         </AnimText>  */}
+         {/* </Loader>  */}
+         {/* </AnimText>   */}
       </body>
     </html>
   );
