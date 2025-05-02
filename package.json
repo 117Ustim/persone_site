@@ -9,7 +9,8 @@
     "start": "next start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "compass": "^0.1.1",
