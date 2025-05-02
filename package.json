@@ -2,10 +2,13 @@
   "name": "person_next",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://117Ustim.github.io/persone_site",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -23,5 +26,8 @@
     "sharp": "^0.33.5",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
